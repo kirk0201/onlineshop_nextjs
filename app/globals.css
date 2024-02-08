@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  /* display: none; */
+  background-size: 100% auto;
+  background-position: center;
+}

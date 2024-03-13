@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import CenterMenu from "@/components/centermenu";
-import TopMenu from "@/components/topmenu";
-import BottomMenu from "@/components/bottommenu";
+import CenterMenu from "@/components/header/centermenu";
+import TopMenu from "@/components/header/topmenu";
+import BottomMenu from "@/components/header/bottommenu";
 import Line from "@/components/line";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
             <div>
               <TopMenu />
             </div>
-            <div className="w-[1200px] m-auto bg-slate-600">
+            <div className="relative w-[1200px] m-auto bg-slate-600">
               <CenterMenu />
               <BottomMenu />
             </div>

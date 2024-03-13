@@ -1,5 +1,5 @@
-import NavButton from "./navbutton";
-import SearchBar from "./searchbar";
+import NavButton from "../navbutton";
+import SearchBar from "../searchbar";
 
 export default function CenterMenu({ children }) {
   const link = [

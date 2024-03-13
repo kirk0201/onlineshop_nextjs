@@ -1,4 +1,4 @@
-import NavButton from "./navbutton";
+import NavButton from "../navbutton";
 
 export default function TopMenu({ children }) {
   return (
